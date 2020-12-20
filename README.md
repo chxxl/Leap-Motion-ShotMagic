@@ -14,4 +14,4 @@
 * [Ultimate 10+ Shaders](https://assetstore.unity.com/packages/vfx/shaders/ultimate-10-shaders-168611)
 
 ### 영상
-추후 업로드 예정 
+[![플레이 영상](http://img.youtube.com/vi/O0YzZVLFTb4/0.jpg)](https://youtu.be/O0YzZVLFTb4?t=0s) 
