@@ -89,7 +89,9 @@ public class Magic : MonoBehaviour
         {
             _activeMagic = false;
             var direction = _leftHandRd.velocity.normalized;
-
+           
+            direction = new Vector3(Mathf.Clamp(direction.x,-0.4f,0.4f), Mathf.Clamp(direction.y, -0.1f, 0.1f), Mathf.Clamp(direction.z,0.1f,10));
+            print(direction);
             _magicRd.AddForce(direction * 5, ForceMode.Impulse);
             _shotCount++;
         }
